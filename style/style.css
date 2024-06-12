@@ -289,3 +289,71 @@
     .link-funcionario:hover{
         color: var(--cor-azul);
     }
+
+/* modificações para mobile */
+
+@media screen and (max-width:420px){
+    .conteudo-alerta{
+        flex-direction: column-reverse;
+    }
+    .conteudo-alerta-texto{
+        width: auto;
+        text-align: center;
+    }
+    .conteudo-servico{
+      flex-direction: column;
+    }
+    .conteudo-servico-texto{
+        width: auto;
+        text-align: center;
+    }
+    .conteudo-historia{
+       flex-direction: column-reverse;
+    }
+    .conteudo-historia-texto{
+        width: auto;
+        text-align: center;
+    }
+    .conteudo-produtos{
+        flex-direction: column;
+    }
+    .conteudo-produtos-texto{
+        width: auto;
+        text-align: center;
+    }     
+    .cabecalho-barra-links-a{
+        font-size: 1.2rem;
+    }
+    .logo{
+        width: 70px;
+        
+    }
+    .rodape{
+        margin-top: 3rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .rodape-redes-grid{
+        display: flex;
+        /* gap: 1rem; */
+        align-items: center
+    }
+    .rodape-redes{
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    .rodape-endereco{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    pre{
+        display: flex;
+    }
+}
