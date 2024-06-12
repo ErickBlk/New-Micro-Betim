@@ -356,4 +356,7 @@
     pre{
         display: flex;
     }
+    .conteudo-titulo{
+        font-size: 2rem;
+    }
 }
