@@ -1,0 +1,108 @@
+
+@media screen and (max-width:430px){
+    .conteudo-alerta{
+        flex-direction: column-reverse;
+    }
+    .conteudo-alerta-texto{
+        width: auto;
+        text-align: center;
+    }
+    .conteudo-servico{
+      flex-direction: column;
+    }
+    .conteudo-servico-texto{
+        width: auto;
+        text-align: center;
+    }
+    .conteudo-historia{
+       flex-direction: column-reverse;
+    }
+    .conteudo-historia-texto{
+        width: auto;
+        text-align: center;
+    }
+    .conteudo-produtos{
+        flex-direction: column;
+    }
+    .conteudo-produtos-texto{
+        width: auto;
+        text-align: center;
+    }     
+    .cabecalho-barra-links-a{
+        font-size: 1.2rem;
+    }
+    .logo{
+        width: 70px;
+        
+    }
+    .rodape{
+        margin-top: 3rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .rodape-redes-grid{
+        display: flex;
+        /* gap: 1rem; */
+        align-items: center
+    }
+    .rodape-redes{
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    .rodape-endereco{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    pre{
+        display: flex;
+    }
+    .abaservico{
+        margin-top: 9.270032930845225vh;
+    }
+    
+    .abaservico-conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-servicos{
+        width: 300px;
+    }
+    .abahistoria-historia{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .abahistoria-historia-text{
+        width: auto;
+        
+    }
+    .abahistoria-historia-imagens{
+        width:auto;
+    }
+    .abahistoria-historia-img{
+        width: 150px;
+        height: 150px;
+    }
+    .foto-funcionario{
+        width: 100px;
+    }
+    .abahistoria-p{
+        width: auto;
+        text-align: left;
+        padding:0 15px;
+    }
+    #cargo{
+        text-align: center;
+    }
+    .abacontato{
+        height:88vh;
+       margin-top: 4rem;
+    }
+}
