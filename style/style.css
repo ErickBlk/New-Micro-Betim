@@ -213,7 +213,7 @@
         padding-bottom: 1rem;
     }
     .abahistoria-historia{
-                align-items: center;
+        align-items: center;
         display: flex;
         padding: 2rem;
         justify-content: center;
@@ -289,74 +289,32 @@
     .link-funcionario:hover{
         color: var(--cor-azul);
     }
-
-/* modificações para mobile */
-
-@media screen and (max-width:420px){
-    .conteudo-alerta{
-        flex-direction: column-reverse;
-    }
-    .conteudo-alerta-texto{
-        width: auto;
+    .abacontato-links{
+        font-family: var(--font-titu);
+        font-weight: 500;
+        border-radius: 1rem;
+        padding: 20px;
         text-align: center;
+        width: 200px;
+        background-color: var(--cor-branca);
+        color: var(--cor-escura);
+        font-size: 1.9rem;
+        transition: 100ms;   
     }
-    .conteudo-servico{
-      flex-direction: column;
+    .abacontato-links:hover{
+        background-color: var(--cor-amarela);
+        font-size: 2.1rem;
+        padding: 17px;
+        transition: 200ms;
+        border-radius: 0.5rem;
+        border-top: 10px solid var(--cor-azul);
     }
-    .conteudo-servico-texto{
-        width: auto;
-        text-align: center;
-    }
-    .conteudo-historia{
-       flex-direction: column-reverse;
-    }
-    .conteudo-historia-texto{
-        width: auto;
-        text-align: center;
-    }
-    .conteudo-produtos{
-        flex-direction: column;
-    }
-    .conteudo-produtos-texto{
-        width: auto;
-        text-align: center;
-    }     
-    .cabecalho-barra-links-a{
-        font-size: 1.2rem;
-    }
-    .logo{
-        width: 70px;
-        
-    }
-    .rodape{
-        margin-top: 3rem;
-        height: auto;
-        flex-direction: column;
-    }
-    .rodape-redes-grid{
-        display: flex;
-        /* gap: 1rem; */
-        align-items: center
-    }
-    .rodape-redes{
-        margin-top: 1rem;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 0.9rem;
-        margin-bottom: 1rem;
-    }
-    .rodape-endereco{
+    .abacontato{
+        height: 100vh;
+        gap: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        text-align: center;
-        gap: 1rem;
+        align-items: center;
+        margin-top: 10rem;
     }
-    pre{
-        display: flex;
-    }
-    .conteudo-titulo{
-        font-size: 2rem;
-    }
-}
